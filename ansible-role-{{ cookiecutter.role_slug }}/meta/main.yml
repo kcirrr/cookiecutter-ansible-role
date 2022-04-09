@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  role_name: {{ cookiecutter.role_slug }}
+  author: kcir
+  description: Install and configure {{ cookiecutter.role_name }}
+  company: NA
+
+  issue_tracker_url: https://github.com/kcirrr/ansible-role-{{ cookiecutter.role_slug }}/issues
+
+  license: MIT
+
+  min_ansible_version: "2.12.2"
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+
+  galaxy_tags: []
+
+dependencies: []

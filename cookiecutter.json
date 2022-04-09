@@ -1,0 +1,4 @@
+{
+    "role_name": "Ansible Role",
+    "role_slug": "{{ cookiecutter.role_name.lower().replace(' ', '-') }}"
+}
