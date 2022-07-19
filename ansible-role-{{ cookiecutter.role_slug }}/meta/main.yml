@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  role_name: {{ cookiecutter.role_slug }}
+  role_name: {{ cookiecutter.role_slug.replace('-', '_') }}
   author: kcir
   description: Install and configure {{ cookiecutter.role_name }}
   company: NA
@@ -14,6 +14,7 @@ galaxy_info:
   platforms:
     - name: Ubuntu
       versions:
+        - jammy
         - focal
 
   galaxy_tags: []
